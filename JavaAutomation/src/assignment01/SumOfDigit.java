@@ -7,14 +7,17 @@ public class SumOfDigit
 {
 	int number=234;
 	int sum=0;
+	int rev=0;
 	public void sumOfDigit()
 	{
 		while(number>0)
 		{
 			int digit=number%10;
 			sum+=digit;
+			rev=rev*10+digit;
 			number=number/10;
 		}
+		System.out.println("Sum of three digit number: "+rev);
 		System.out.println("Sum of three digit number: "+sum);
 	}	
 	public static void main(String[] args) 
