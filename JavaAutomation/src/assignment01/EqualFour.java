@@ -25,7 +25,7 @@ public class EqualFour
 		}
 		else
 		{
-			System.out.println("Not	 Equal");
+			System.out.println("Not Equal");
 		}
 		sc.close();
 	}
