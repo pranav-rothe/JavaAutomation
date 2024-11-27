@@ -9,8 +9,19 @@ public class CopyArray {
 		
 		int arr[] = {1,2,3,44,66,33}; 
 		int copyArr[]=new int[arr.length];
+		int newCopyArr[]=new int[arr.length];
 		
-		for(int i=0;i<=arr.length-1;i++) {
+		
+		//reverse it and copy in another array
+		for(int i=arr.length-1;i>=0;i--) {  
+			newCopyArr[i]=arr[i];
+			System.out.print(newCopyArr[i]+" ");
+		}
+		
+		System.out.println();
+		
+		//just copy the same given array in another array
+		for(int i=0;i<=arr.length-1;i++) { 
 			copyArr[i]=arr[i];
 		}
 		for(int sort: copyArr) {
