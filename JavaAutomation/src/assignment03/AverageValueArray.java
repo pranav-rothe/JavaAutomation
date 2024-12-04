@@ -7,20 +7,19 @@ public class AverageValueArray {
 
 	public static void main(String[] args) {
 		
-		int test [] ={1,2,355,664}; 
+		int test[] ={1,2,355,664}; 
 		int sum=0;
-		int count=0;
 		int avg=0;
 		
 		for(int i=0;i<=test.length-1;i++) {
 			sum+=test[i];
-			count++;
 		}
-		avg=sum/count;
+		int arrSize=test.length;
+		avg=sum/arrSize;
 		
 		System.out.println("Sum of array: "+sum);
-		System.out.println("Total element is array: "+count);
-		System.out.println("Average of array: "+sum+"/"+count+" = "+avg);
+		System.out.println("Total element is array: "+arrSize);
+		System.out.println("Average of array: "+sum+"/"+arrSize+" = "+avg);
 	}
 
 }
