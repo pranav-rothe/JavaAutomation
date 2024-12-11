@@ -1,6 +1,6 @@
 package javaPractice;
 
-public class A02_StringReverse {
+public class A02_StringWordReverse {
 
 	public static void main(String[] args) {
 

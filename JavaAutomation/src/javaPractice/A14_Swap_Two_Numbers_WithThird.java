@@ -1,6 +1,6 @@
 package javaPractice;
 
-public class A14_Swap_Two_Numbers {
+public class A14_Swap_Two_Numbers_WithThird {
 
 	public static void main(String[] args) {
 

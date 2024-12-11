@@ -9,7 +9,7 @@ public class A08_Sum_Of_Digit {
 		
 		while(num!=0) {
 			int digit=num%10;
-			sum=sum+digit;
+			sum=sum+digit; //important
 			num=num/10;
 		}
 		System.out.println(sum);
