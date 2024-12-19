@@ -1,6 +1,6 @@
 package javaPractice;
 
-public class A03_ArraySort {
+public class A03_ArrayNumberSort {
 
 	public static void main(String[] args) {
 
