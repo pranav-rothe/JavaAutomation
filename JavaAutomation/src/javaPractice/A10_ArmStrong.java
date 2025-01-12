@@ -8,9 +8,9 @@ public class A10_ArmStrong {
 		int sum=0;
 		int org=num;
 		
-		while(num>0) {
+		while(num!=0) {//changes here 
 			int digit=num%10;
-			sum=sum+(digit*digit*digit);
+			sum=sum+(digit*digit*digit); //changes here
 			num=num/10;
 		}
 		System.out.println(sum);

@@ -10,7 +10,7 @@ public class A09_Reverse_Digit {
 		
 		while(num!=0) {
 			int digit=num%10;
-			rev=rev*10+digit;
+			rev=rev*10+digit;//changes here
 			num=num/10;
 		}
 		System.out.println(org);
