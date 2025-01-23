@@ -1,5 +1,7 @@
 package javaPractice;
 
+import java.util.Arrays;
+
 public class A34_CopyArray {
 
 	public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class A34_CopyArray {
 			System.out.println(copyArr[i]);
 			
 		}
-		//System.out.println(Arrays.toString(copyArr));
+		System.out.println(Arrays.toString(copyArr));
 	}
 
 }

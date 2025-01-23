@@ -7,7 +7,7 @@ public class MissingNumberArray {
 
 	public static void main(String[] args) {
 		
-		int arr[]={1,2,3,4,5,7,8};
+		int arr[]={1,2,3,4,5,7,8,10};
 		int diff=1;
 		for(int i=0;i<arr.length;i++) { //0-->1-->2-->3-->4
 			if(arr[i+1]-arr[i]!=diff) {

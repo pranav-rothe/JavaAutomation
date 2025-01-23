@@ -6,10 +6,16 @@ public class A02_StringWordReverse {
 
 		String name="Hi good evening"; //answer: iH doog gnineve 
 		String s1="";
+		String w="";
 		
 		System.out.println(name);
 		
 		String[] index=name.split(" ");
+		
+		for(int i=index.length-1;i>=0;i--) {
+			w+=index[i]+" ";
+		}
+		System.out.println(w);
 		
 		for(String word: index) {
 			String rev="";
