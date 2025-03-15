@@ -13,9 +13,9 @@ public class A26_Second_Largest_Number {
 			if (arr[i] > largest) {
 				secondLarge = largest;
 				largest = arr[i];
-			}
-			else if(arr[i]>secondLarge && arr[i]!=largest) {
-				secondLarge=arr[i];
+			} 
+			else if (arr[i] > secondLarge && arr[i] != largest) {
+				secondLarge = arr[i];
 			}
 		}
 		System.out.println("Second largest number in array: " + secondLarge);

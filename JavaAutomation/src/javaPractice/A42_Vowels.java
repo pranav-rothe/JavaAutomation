@@ -19,6 +19,9 @@ public class A42_Vowels {
 		
 		String op2=str2.replaceAll("[^0-9a-zA-Z]", "");
 		System.out.println(op2);
+		
+		String op3=str2.replaceAll("[^0-9]", "");
+		System.out.println(op3);
 	}
 
 }
