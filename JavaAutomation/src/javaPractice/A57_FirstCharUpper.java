@@ -1,6 +1,6 @@
 package javaPractice;
 
-public class A58_FirstCharUpper {
+public class A57_FirstCharUpper {
 
 	public static void main(String[] args) {
 
